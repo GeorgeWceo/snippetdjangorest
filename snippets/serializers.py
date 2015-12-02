@@ -7,5 +7,5 @@ class SnippetSerializer(serializers.ModelSerializer):
         model = Snippet
         fields = ('id', 'title', 'code', 'linenos', 'language', 'style')
 
-    
+
 
